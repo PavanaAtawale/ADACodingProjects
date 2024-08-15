@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link href="css/homepage.css" rel="stylesheet" />
+<style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+</style>  
+</head>
+
+<body>
+<br>
+<div class="alert alert-danger fade in">
+ <a href="#" class="close" data-dismiss="alert" aria-label="close">×</a>
+  <strong>Warning!</strong> Harry Potter references! If you do not like Harry Potter or puppies, or anything on this page, kindly refrain from acessing this page! Have a wonderful day.
+</div>
+
+<br><br>
+<div class="btn-group-vertical btn-group-lg">
+  <button type="button" class="btn btn-primary">Harry Potter</button>
+  <button type="button" class="btn btn-primary">Divergent</button>
+  <button type="button" class="btn btn-primary">TFIOS</button>
+  <button type="button" class="btn btn-primary">Selection</button>
+  <button type="button" class="btn btn-primary">Matched</button>
+</div>
+
+
+<br><br>
+<h4>My favorite books and top 10 characters from it</h4>
+<dl>
+<dt>1. Harry Potter</dt>
+<dd>- Harry James Potter =D</dd>
+<dd>- Ginevra (Ginny) Molly Potter nee Weasley</dd>
+<dd>- Ronald (Ron) Bilius Weasley</dd>
+<dd>- Nymphadora Lupin nee Tonks</dd>
+<dd>- Bellatrix Lestrange nee Black</dd>
+<dd>- Hermoine Jean Weasley nee Granger</dd>
+<dd>- Lily Potter nee Evans</dd>
+<dd>- Albus Dumbeldore</dd>
+<dd>- Remus Lupin</dd>
+<dd>- Sirius Black</dd>
+</dl>
+
+<br><br>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://quotesfans.com/wp-content/uploads/2015/04/Harry-Potter-Quotes-17.jpg" alt="Harry Potter quotes" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="http://images5.fanpop.com/image/photos/31500000/Puppie-puppies-31599683-800-600.jpg" alt="Puppies!!" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="data:image/jpeg;base64,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" alt="Sabrina Carpenter" width="46" height="345">
+      </div>
+      
+      <div class="item">
+        <img src="http://www.eonline.com/eol_images/Entire_Site/2013015/634.TaylorSwift8.ms.011513_copy.jpg" alt="Taylor Swift" width="460" height="345">
+      </div>      
+      
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<br><br>
+
+<div class="row">
+	<div class="col-md-4"> 
+    	<a href="http://beta.koderkids.com/userdata/e362bc9a65e2e3a99d086f27b95fa383/js101/calc.html" class="thumbnail">
+        	<p></p>
+        	<img src="" alt="Java Script Calculator">
+        </a>
+    </div>
+    <div class="col-md-4"> 
+    	<a href="http://beta.koderkids.com/userdata/e362bc9a65e2e3a99d086f27b95fa383/poly1/poly1.html" class="thumbnail">
+        	<p></p>
+        	<img src="" alt="Polynomial Equation Solver">
+        </a>
+    </div>
+    <div class="col-md-4"> 
+    	<a href="http://beta.koderkids.com/userdata/e362bc9a65e2e3a99d086f27b95fa383/o6si0a1/index.html" class="thumbnail">
+        	<p></p>
+        	<img src="" alt="My Schedule">
+        </a>
+    </div>  
+</div>
+<div class="row">
+	<div class="col-md-4"> 
+    	<a href="http://beta.koderkids.com/userdata/e362bc9a65e2e3a99d086f27b95fa383/pz6ev1/contacts.html" class="thumbnail">
+        	<p></p>
+        	<img src="" alt="Contacts WebApp">
+        </a>
+    </div>  
+    <div class="col-md-4"> 
+    	<a href="http://beta.koderkids.com/userdata/e362bc9a65e2e3a99d086f27b95fa383/rrkfqq1/gameoflife.html" class="thumbnail">
+        	<p></p>
+        	<img src="" alt="Game of Life">
+        </a>
+    </div>  
+    <div class="col-md-4"> 
+    	<a href="http://beta.koderkids.com/userdata/e362bc9a65e2e3a99d086f27b95fa383/mbnmr1/svg.html" class="thumbnail">
+        	<p></p>
+        	<img src="" alt="SVG Artwork">
+        </a>
+    </div> 
+</div>
+<div class="row">
+    <div class="col-md-4"> 
+    	<a href="http://beta.koderkids.com/main.php?m=editor&id=98" class="thumbnail">
+        	<p></p>
+        	<img src="" alt="Canvas Game">
+        </a>
+    </div>
+</div>
+
+
+</body>
+</html>

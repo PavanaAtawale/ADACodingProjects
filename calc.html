@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="css/calc.css" rel="stylesheet" />
+<script src="js/calc.js"></script>
+</head>
+
+<body>
+<h1>Welcome to my calculator!</h1>
+<h2>Feel free to use it.  <em>Yes even when you are doing homework!</em></h2>
+
+<table border=1>
+	<tr><td colspan=4><div id="ans"></div>
+    	<tr>
+    		<td><button id="btnc" onclick="javascript:btnCtrl('c');"> C </button></td>
+            <td><button id="btns" onclick="javascript:btnCtrl('+/-');"> +/- </button></td>
+            <td><button id="btnp" onclick="javascript:btnCtrl('%');"> % </button></td>
+            <td><button id="btnd" onclick="javascript:btnCtrl('/');"> / </button></td>
+        </tr><tr>
+        	<td><button id="btn7" onclick="javascript:btnCtrl(7);"> 7 </button></td>
+            <td><button id="btn8" onclick="javascript:btnCtrl(8);"> 8 </button></td>
+            <td><button id="btn9" onclick="javascript:btnCtrl(9);"> 9 </button></td>
+            <td><button id="btnm" onclick="javascript:btnCtrl('x');"> x </button></td>
+        </tr><tr>
+        	<td><button id="btn4" onclick="javascript:btnCtrl(4);"> 4 </button></td>
+            <td><button id="btn5" onclick="javascript:btnCtrl(5);"> 5 </button></td>
+            <td><button id="btn6" onclick="javascript:btnCtrl(6);"> 6 </button></td>
+            <td><button id="btnz" onclick="javascript:btnCtrl('-');"> - </button></td>
+    	</tr><tr>
+        	<td><button id="btn1" onclick="javascript:btnCtrl(1);"> 1 </button></td>
+            <td><button id="btn2" onclick="javascript:btnCtrl(2);"> 2 </button></td>
+            <td><button id="btn3" onclick="javascript:btnCtrl(3);"> 3 </button></td>
+            <td><button id="btna" onclick="javascript:btnCtrl('+');"> + </button></td>
+        </tr><tr>
+        	<td colspan=2 ><button id="btn0" onclick="javascript:btnCtrl(0);"> 0 </button></td>
+            <td><button id="btnt" onclick="javascript:btnCtrl('.');">.</button></td>
+            <td><button id="btnop" onclick="javascript:calculate();"> = </button></td>
+</table>
+
+
+</body>
+</html>

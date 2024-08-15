@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My photo album</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Summer Photos</h2>  
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:600px; height:750px" data-interval="1000">
+    
+	<!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>	  
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cool Sunglasses" style="width:600px; height: 750px">
+        <div class="carousel-caption"><h3>Beach Time!</h3></div>
+      </div>
+
+      <div class="item">
+        <img src="https://images.pexels.com/photos/450038/pexels-photo-450038.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Pool and Palm Trees" style="width:600px; height: 750px">
+      	<div class="carousel-caption"><h3>Pool Party!</h3></div>
+      </div>
+    
+      <div class="item">
+        <img src="https://images.pexels.com/photos/1118448/pexels-photo-1118448.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Summer Road Trip" style="width:600px; height: 750px">
+        <div class="carousel-caption"><h3>Road Trip!</h3></div>
+      </div>
+      <div class="item">
+        <img src="https://images.pexels.com/photos/1233319/pexels-photo-1233319.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Cool Drinks" style="width:600px; height: 750px">
+        <div class="carousel-caption"><h3>Reset and Refresh!</h3></div>
+      </div>
+	  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

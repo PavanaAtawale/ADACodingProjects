@@ -1,0 +1,33 @@
+body { 
+    background-image: url("http://rlv.zcache.com/fox_red_labrador_puppy_wearing_large_spiked_collar_notebook-r2f0a88af513d41ada9de2de3242c9a32_ambg4_8byvr_324.jpg");
+    color: Cyan;
+    font-family:Georgia;
+    }
+    
+    form {
+    color: HotPink;
+    font-family:Edwardian Script ITC;
+    font-size: 25px;
+    background-color: AquaMarine;
+    padding: 50px;
+    border: 10px solid #C71585;
+    margin: 50px;
+    width: 500px;
+    border-radius: 100px;
+    }
+    
+    #answer {
+    color: HotPink;
+    font-family:Edwardian Script ITC;
+    background-color: AquaMarine;
+    padding: 40px;
+    border: 10px solid #C71585;
+    margin-left: 50px;
+    margin-top: -90px;
+    width: 400px;
+    border-radius: 100px;
+    }
+    
+    .vallabel {
+    width: 200px;
+    }

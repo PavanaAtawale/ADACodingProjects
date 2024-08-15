@@ -1,0 +1,14 @@
+/* you can define style for your calculator here */
+.ui-page-theme-f {
+    color: HotPink;
+    background-color: LavenderBlush;
+}
+.ui-page-theme-g  {
+	color: ChartreuseGreen;
+}
+
+.ui-listview .ui-btn-up-j a, 
+.ui-listview .ui-btn-down-j a, 
+.ui-listview .ui-btn-hover-j a {
+  color: Aqua;
+}

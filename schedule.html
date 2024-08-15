@@ -1,0 +1,178 @@
+<html>
+
+	<head>
+    
+    	<link rel= "stylesheet" type = "text/css" href = "css/schedule.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/schedule.js"></script>
+    
+    </head>
+    
+	<body>
+    
+ 		<h1 id = "header">Here is my <em>busy</em> schedule</h1>   
+        
+		<button><a href="charts.html" id = "linkTo">See my Pie Chart!</a></button>
+        
+        
+    	<div id = "legend">Legend 
+        <br>
+        	<span class = "School">School</span>
+            <span class = "Dance">Dance Class</span>
+            <span class = "Coding">Coding Class</span>
+            <span class = "RSM">Rsm</span>
+        </div>
+        
+
+        
+        <br> <br> <br> <br> <br> <br>
+
+		<table>
+        
+        	<tr>
+            
+            	<td></td>
+                <td> 7am </td>
+                <td> 8am </td>
+                <td> 9am </td>
+                <td> 10am </td>
+                <td> 11am </td>
+                <td> 12pm </td>
+                <td> 1pm </td>
+                <td> 2pm </td>
+                <td> 3pm </td>
+                <td> 4pm </td>
+                <td> 5pm </td>
+                <td> 6pm </td>
+                <td> 7pm </td>
+                <td> 8pm </td>
+                <td> 9pm </td>
+                
+            </tr>
+            
+            <tr>
+            
+                <td> Sunday </td>
+                <td id = "17a"></td>
+                <td id = "18a"></td>
+                <td id = "19a"></td>
+                <td id = "110a"></td>
+                <td id = "111a"></td>
+                <td id = "112p"></td>
+                <td id = "11p"></td>
+                <td id = "12p"></td>
+                <td id = "13p"></td>
+                <td id = "14p"></td>
+                <td id = "15p"></td>
+                <td id = "16p"></td>
+                <td id = "17p"></td>
+                <td id = "18p"></td>
+                <td id = "19p"></td>
+                
+            </tr>
+            
+            <tr>
+            
+                <td> Monday </td>
+                <td id = "27a"></td>
+                <td id = "28a" colspan = 7 rowspan = 2></td>
+                <td id = "23p" rowspan = 4></td>
+                <td id = "24p"></td>
+                <td id = "25p"></td>
+                <td id = "26p"></td>
+                <td id = "27p"></td>
+                <td id = "28p"></td>
+                <td id = "29p"></td>
+                
+            </tr>
+            
+            <tr>
+            
+                <td> Tuesday </td>
+                <td id = "37a"></td>
+                <td id = "34p"></td>
+                <td id = "35p"></td>
+                <td id = "36p"></td>
+                <td id = "37p"></td>
+                <td id = "38p"></td>
+                <td id = "39p"></td>
+                
+            </tr>
+            
+            <tr>
+            
+                <td> Wednesday </td>
+                <td id="47a"></td>
+                <td id="48a"></td>
+                <td id="49a"></td>
+                <td id="410a" colspan = 5></td>
+                <td id="44p"></td>
+                <td id="45p"></td>
+                <td id="46p"></td>
+                <td id="47p"></td>
+                <td id="48p"></td>
+                <td id="49p"></td>
+                
+            </tr>
+            
+            <tr>
+             
+                <td> Thursday </td>
+                <td id="57a"></td>
+                <td id="58a" colspan = 7 rowspan = 2></td>
+                <td id="54p"></td>
+                <td id="55p" colspan = 3></td>
+                <td id="58p"></td>
+                <td id="59p"></td>
+                
+            </tr>
+            
+            
+            
+            <tr>
+            
+                <td> Friday </td>
+                <td id="67a"></td>
+                <td id="63p"></td>
+                <td id="64p"></td>
+                <td id="65p"></td>
+                <td id="66p"></td>
+                <td id="67p"></td>
+                <td id="68p"></td>
+                <td id="69p"></td>
+                
+            </tr>
+            
+            <tr>
+            
+                <td> Saturday </td>
+                <td id="77a"></td>
+                <td id="78a"></td>
+                <td id="79a"></td>
+                <td id="710a"></td>
+                <td id="711a"></td>
+                <td id="712a"></td>
+                <td id="71p"></td>
+                <td id="72p"></td>
+                <td id="73p"></td>
+                <td id="74p"></td>
+                <td id="75p"></td>
+                <td id="76p"></td>
+                <td id="77p"></td>
+                <td id="78p"></td>
+                <td id="79p"></td>
+                
+            </tr>            
+
+		</table>
+        <br>
+        <form action = "../../../lessons/schedule_update.php">
+        	Key: <input name = "key"/> <br>
+        	Name: <input name = "name"/><br>
+        	Type: <input name = "type"/><br>
+        	Hours: <input name = "hours"/><br>
+            <input type="hidden" value = "e362bc9a65e2e3a99d086f27b95fa383" name = "folder"/>
+            <input type = "submit" value = "Update Schedule"/>
+        </form>
+	</body>
+</html>

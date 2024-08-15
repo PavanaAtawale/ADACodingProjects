@@ -1,0 +1,41 @@
+/* you can define style for your calculator here */
+body { 
+    background-color:HotPink;
+    color: DarkOrchid;
+    font-family:Georgia;
+}
+    
+table {
+    border: 3px solid black;
+    color: FloralWhite;
+    background-color: LightGoldenRodYellow;
+}
+    
+#ans {
+    height:50px; 
+    width: 247px;
+    padding-right: 10px;
+    border: 2px DeepPink;
+    border-radius: 10px;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 50px;
+    font-size: 30px;;
+    background-color: black;
+    color: white;
+}
+    
+button{
+    width: 60px;
+    height: 60px;
+    color: black;
+}
+    
+#btn0{
+    width: 120px;
+}
+    
+#btnd, #btnm, #btnz, #btna, #btnop{
+    background-color: orange;
+}
+    

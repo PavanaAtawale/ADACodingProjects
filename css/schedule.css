@@ -1,0 +1,68 @@
+table, tr, td {
+	border: 1px solid blue;
+    background-color: GhostWhite;
+}
+
+td {
+	height: 60px;
+    width: 50px;
+}
+
+.School {
+	background-color: #FF99CC;
+}
+
+#legend {
+	background-color: MistyRose;
+    height: 50px;
+    width: 300px;
+    position: fixed;
+    margin: 0 auto
+}
+
+body {
+	background-image: url("http://wallalay.com/wp-content/uploads/2014/09/Pretty-Backgrounds-19.jpg") ;
+}
+
+.Dance {
+	background-color: #6CE1FF;
+}
+
+
+#730 {
+	float: right;
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    color: GhostWhite;
+}
+
+#800 {
+	float: right;
+    height: 100%;
+    width: 50%;
+    color: #6CE1FF;
+}
+
+.Coding {
+	background-color: Orange;
+}
+
+
+#header {
+	color: LavenderBlush ;
+}
+
+
+.RSM {
+	background-color: LightCoral;
+}
+
+.homeworkClub {
+	background-color: Aquamarine;
+}
+
+#linkTo {
+	color: BlanchedAlmond;
+    background-color: Crimson;
+}
